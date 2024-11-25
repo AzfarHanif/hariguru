@@ -68,11 +68,12 @@
 
         .container {
             display: flex;
+            flex-wrap: wrap; /* Izinkan elemen turun ke baris baru */
             justify-content: center;
             gap: 20px;
-            padding: 40px 20px;
-            /* margin-top: 0px; */
+            padding: 20px;
         }
+
         
         .about-content {
             position: relative;
@@ -168,6 +169,42 @@
             font-size: 14px;
             margin-top: 40px;
         }
+
+
+        @media screen and (max-width: 768px) {
+    .about-content p {
+        font-size: 12px; /* Ukuran teks lebih kecil */
+        line-height: 1.4; /* Tingkatkan jarak antar baris */
+        padding: 10px; /* Tambahkan ruang dalam elemen */
+    }
+
+    .about-content h1 {
+        font-size: 20px; /* Ukuran heading lebih kecil */
+        margin-bottom: 10px;
+    }
+
+    .about-content h2 {
+        font-size: 16px; /* Perkecil sub-heading */
+    }
+
+    .about-content img {
+        width: 100%; /* Gambar penuh sesuai layar */
+        max-width: 300px; /* Batas maksimal lebar gambar */
+        margin: 10px auto; /* Pusatkan gambar */
+    }
+
+    .about-header {
+        font-size: 16px; /* Sesuaikan ukuran header */
+        padding: 10px; /* Kurangi padding */
+    }
+
+    .footer {
+        font-size: 10px; /* Perkecil teks footer */
+        padding: 5px; /* Kurangi jarak di footer */
+    }
+}
+
+
     </style>
 </head>
 <body>
