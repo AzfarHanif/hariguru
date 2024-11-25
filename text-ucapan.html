@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GISTech - About Us</title>
+    <style>
+        /* Reset margin dan padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Gaya untuk header */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1E201E;
+        }
+
+        /* .header {
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        } */
+
+        .header h1 {
+            color: #0D92F4;
+            font-size: 24px;
+        }
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .nav a.active {
+            background-color: #0D92F4;
+            color: #fff;
+            border-radius: 5px;
+        }       
+
+        nav a:hover {
+        text-decoration: solid;
+        background-color: #008080;
+        border-radius: 5px;
+        }
+
+        /* Gaya untuk judul halaman About */
+        .about-header {
+            background-color: #3C3D37;
+            color: #ECDFCC;
+            padding: 40px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            /* margin-top: 0px; */
+        }
+        
+        .about-content {
+            position: relative;
+            width: 450px;            /* Lebar setiap kolom */
+            height: 600px;           /* Tinggi setiap kolom */
+            background-color: #ECDFCC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 14px;
+        }
+
+        .about-content p{
+            position: absolute;
+            top: 20px;       /* Sesuaikan posisi vertikal teks */
+            color: black;  /* Warna teks */
+            font-size: 96px; /* Ukuran teks */
+            font-weight: bold;
+            z-index: 1;      /* Pastikan teks di atas logo */
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .about-content h2{
+            position: absolute;
+            bottom: 10px;       /* Sesuaikan posisi vertikal teks */
+            color: black;  /* Warna teks */
+            font-size: 36px; /* Ukuran teks */
+            font-weight: bold;
+            z-index: 1;      /* Pastikan teks di atas logo */
+        }
+
+        /* Gaya untuk gambar di About section */
+        .about-image {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+
+        .about-image img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Gaya untuk konten di bagian About */
+        .about-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about-content h1 {
+            position: absolute;
+            top: 20px;       /* Sesuaikan posisi vertikal teks */
+            color: black;  /* Warna teks */
+            font-size: 72px; /* Ukuran teks */
+            font-weight: bold;
+            z-index: 1;      /* Pastikan teks di atas logo */
+            padding: 10px;
+        }
+
+        .about-content a {
+            transition: transform 0.3s ease, opacity 0.3s ease; /* Menambahkan transisi pada transformasi dan opasitas */
+            display: inline-block;
+        }
+
+        .about-content img{
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .about-content p {
+            color: #333;
+            font-size: 16px;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+            display: flex;
+        }
+
+        .about-content p strong {
+            font-weight: bold;
+        }
+
+        /* Gaya untuk footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <!-- <header class="header">
+        <h1>Hari Guru</h1> -->
+        <!-- <nav>
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#" class="active">ABOUT</a></li>
+                <li><a href="Service.html">SERVICE</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav> -->
+    <!-- </header> -->
+
+    <!-- About Header -->
+    <section class="about-header">
+        <div class="about-sir"><h1>TENTAG SIR RIKI</h1></div>
+    </section>
+
+    <!-- About Image -->
+    <!-- <div class="about-image">
+        <div class="penjelasan">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </div>
+    </div> -->
+
+    <section class="container">
+        
+        <div class="about-content">              
+            <!-- <h1>Instagram</h1> -->
+            <p>Sir Orangya Asik Keren Cool Kalo ngajar tuh seru banget, tenang juga pembelajranya jadi bikin pelajaran tuh relax banget dan saya juga sangat merasa senang karena skill IT saya bertambah terutama di web design, saya juga merasa senang dengan pelajaran sir yang to the point dan tidak berlibet libet</p>
+            <img src="love.png" alt="Love">
+        </div>
+    
+        <div class="about-content">
+            <h1>Instagram</h1>
+            <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1> -->
+            <a href="https://www.instagram.com/rizkyfirman_15/"><img src="sir-riki.png" alt="Instgram" onclick="alert('Membuka Instagram!')"></a>
+            <h2>Klik Foto diatas</h2>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <!-- <section class="about-content">
+        <h3>ABOUT</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</strong>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</strong>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        
+        <h3>VISI</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</strong></p>
+
+        <h3>MISI</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strong>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</strong></p>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        Copyright © 2024 - Zpall. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
